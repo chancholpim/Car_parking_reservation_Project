@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Car parking reservation</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Car parking reservation</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">55464cb521120110a866589604c20d56</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 07:55:54</sys_created_on>
+        <sys_id>2a22ee4f97a01110fbff72571153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car parking reservation</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_827039_car_parki">cad16a4f97a01110fbff72571153af58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">cad16a4f97a01110fbff72571153af58</sys_scope>
+        <sys_update_name>sys_wizard_answer_2a22ee4f97a01110fbff72571153af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 07:55:54</sys_updated_on>
+        <table/>
+        <target_url>x_827039_car_parki_car_parking_reservation.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

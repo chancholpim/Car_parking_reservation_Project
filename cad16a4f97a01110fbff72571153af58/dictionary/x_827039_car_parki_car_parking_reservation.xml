@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Car parking reservation" max_length="40" name="x_827039_car_parki_car_parking_reservation" sizeclass="7" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="car_price_1" read_only="true" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Car type" mandatory="true" max_length="40" name="car_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Trank" sequence="0" value="trank"/>
+                <element inactive_on_update="false" label="Pickup" sequence="1" value="pickup"/>
+                <element inactive_on_update="false" label="SUV" sequence="2" value="suv"/>
+                <element inactive_on_update="false" label="Van" sequence="3" value="van"/>
+                <element inactive_on_update="false" label="Etc." sequence="4" value="etc."/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email_car" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Datetime" max_length="40" name="end_datetime_car" type="glide_date_time"/>
+        <element dependent="name_car" dependent_on_field="name_car" label="Name" mandatory="true" max_length="80" name="name_car" type="field_name" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name_user_car" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" mandatory="true" max_length="40" name="phone_car" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start datetime" max_length="40" name="start_datetime_car" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="String Duration" max_length="40" name="string_duration" read_only="true" type="string"/>
+        <element label="Duration" max_length="40" name="u_glide_duration_6" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle registration number" mandatory="true" max_length="40" name="vehicle_registration_car" type="string"/>
+    </element>
+</database>
